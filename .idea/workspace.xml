@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33f1a4c1-49c3-4907-b0c6-cab1ab8e4621" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1QJeJCUIz2BJ1zMyePMPiIlo6ME" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27941176" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\mbti\mbti-admin\src\main\java\com\mbti\common\word\ftl" />
+      <recent name="E:\code\mbti\mbti-admin\src\main\java\com\mbti\common\word" />
+      <recent name="E:\code\mbti\mbti-admin\src\main\java\com\mbti\common\utils" />
+      <recent name="E:\code\mbti\mbti-admin\src\main\java\com\mbti\modules\platform\ftl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mbti.Test" />
+      <module name="mbti.admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mbti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordGeneratorWithFreemarker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mbti.common.word.WordGeneratorWithFreemarker" />
+      <module name="mbti.admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mbti.common.word.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mbti.admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mbti.AdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordGeneratorWithFreemarker" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33f1a4c1-49c3-4907-b0c6-cab1ab8e4621" name="Default Changelist" comment="" />
+      <created>1567493051202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567493051202</updated>
+      <workItem from="1567493053342" duration="6545000" />
+      <workItem from="1567508366647" duration="26413000" />
+      <workItem from="1567685339376" duration="1142000" />
+      <workItem from="1567686716067" duration="6794000" />
+      <workItem from="1567740594711" duration="7317000" />
+      <workItem from="1567816263119" duration="1689000" />
+      <workItem from="1567838948291" duration="1738000" />
+      <workItem from="1567857513051" duration="1482000" />
+      <workItem from="1567990125556" duration="38028000" />
+      <workItem from="1568182245731" duration="323000" />
+      <workItem from="1568250542224" duration="13433000" />
+      <workItem from="1568282013351" duration="785000" />
+      <workItem from="1568594830969" duration="2621000" />
+      <workItem from="1568612058266" duration="640000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

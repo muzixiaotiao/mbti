@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mbti.modules.platform.dao.UserDao">
+    <!-- 根据mobile，查询value -->
+    <select id="queryByMobile" parameterType="java.util.Map" resultType="com.mbti.modules.platform.entity.UserEntity">
+		select * from mbti_user where mobile = #{mobile} and info_id = #{infoId}
+	</select>
+
+</mapper>

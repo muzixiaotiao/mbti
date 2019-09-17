@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mbti.modules.platform.dao.AnwserDao">
+    <!-- 根据mobile，查询value -->
+    <select id="queryAnwsersByQuestionId" parameterType="Long" resultType="com.mbti.modules.platform.vo.AnwserDTO">
+	    SELECT
+	    	id,
+	    	code AS code,
+	    	name AS name,
+	    	question_id AS questionId
+	    FROM mbti_anwser
+	    WHERE question_id=#{questionId}
+	</select>
+
+    <!-- 根据mobile，查询value -->
+    <select id="countCharacterScore" parameterType="java.util.List" resultType="com.mbti.modules.platform.vo.ReportDTO">
+		SELECT
+		    character_type AS code,
+		    COUNT(1) AS score
+		FROM mbti_anwser
+		WHERE id IN
+        <foreach item="anwserId" collection="list" open="(" separator="," close=")">
+            #{anwserId}
+        </foreach>
+		GROUP BY character_type
+		ORDER BY COUNT(1) DESC
+	</select>
+</mapper>

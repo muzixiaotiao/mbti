@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mbti.iml" filepath="$PROJECT_DIR$/mbti.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mbti-admin/mbti.admin.iml" filepath="$PROJECT_DIR$/mbti-admin/mbti.admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mbti-common/mbti.common.iml" filepath="$PROJECT_DIR$/mbti-common/mbti.common.iml" />
+    </modules>
+  </component>
+</project>

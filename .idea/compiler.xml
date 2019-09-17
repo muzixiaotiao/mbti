@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mbti.admin" />
+        <module name="mbti.common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mbti" target="1.8" />
+      <module name="mbti-api" target="1.5" />
+      <module name="mbti.admin" target="1.8" />
+      <module name="mbti.common" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mbti" options="-parameters" />
+      <module name="mbti.admin" options="-parameters" />
+      <module name="mbti.common" options="-parameters" />
+    </option>
+  </component>
+</project>
